@@ -1,0 +1,173 @@
+{
+  "status": "CPU_BENCHMARK_COMPLETE",
+  "machine": {
+    "platform": "Linux-6.12.96+deb13-amd64-x86_64-with-glibc2.41",
+    "processor": "",
+    "logical_cpus": 6
+  },
+  "onnx": {
+    "path": "/path/to/fire_detact_training/models/final/onnx_v1/fire_smoke_r3_e6_final_768_fp32.onnx",
+    "sha256": "e887a759bcc65c89803c8ea0aa3d8891bcb0e60a5fd334433b2d6d912ba3bc79"
+  },
+  "settings": {
+    "imgsz": 768,
+    "confidence": 0.25,
+    "nms_iou": 0.7,
+    "images": 300,
+    "warmup": 20
+  },
+  "results": [
+    {
+      "threads": 1,
+      "images": 300,
+      "detections": 471,
+      "decode": {
+        "mean_ms": 3.5824518833333334,
+        "median_ms": 1.7147505,
+        "p95_ms": 8.119169450000003,
+        "p99_ms": 21.72420573999968,
+        "min_ms": 0.159479,
+        "max_ms": 73.805238
+      },
+      "preprocess": {
+        "mean_ms": 3.8863267533333334,
+        "median_ms": 3.5784715,
+        "p95_ms": 5.497121,
+        "p99_ms": 5.919377409999995,
+        "min_ms": 2.975409,
+        "max_ms": 6.877292
+      },
+      "inference": {
+        "mean_ms": 449.99674208333334,
+        "median_ms": 449.651091,
+        "p95_ms": 459.5478498,
+        "p99_ms": 463.91796603,
+        "min_ms": 439.660976,
+        "max_ms": 466.277428
+      },
+      "postprocess": {
+        "mean_ms": 0.3382479,
+        "median_ms": 0.351738,
+        "p95_ms": 0.5022927500000001,
+        "p99_ms": 0.6117042299999998,
+        "min_ms": 0.211099,
+        "max_ms": 0.707718
+      },
+      "end_to_end": {
+        "mean_ms": 457.8038936,
+        "median_ms": 456.996377,
+        "p95_ms": 467.9448491,
+        "p99_ms": 476.4039590899997,
+        "min_ms": 444.181072,
+        "max_ms": 529.399447
+      },
+      "fps_from_median": 2.188201155038916,
+      "fps_from_mean": 2.1843414046489884,
+      "rss_start_mb": 334.0078125,
+      "rss_end_mb": 389.47265625,
+      "peak_rss_mb": 404.76953125
+    },
+    {
+      "threads": 2,
+      "images": 300,
+      "detections": 471,
+      "decode": {
+        "mean_ms": 3.5909835566666666,
+        "median_ms": 1.778681,
+        "p95_ms": 8.312317500000006,
+        "p99_ms": 22.04536238999975,
+        "min_ms": 0.158359,
+        "max_ms": 74.87118
+      },
+      "preprocess": {
+        "mean_ms": 3.8599290633333334,
+        "median_ms": 3.560214,
+        "p95_ms": 5.6244706,
+        "p99_ms": 6.36942159,
+        "min_ms": 2.976872,
+        "max_ms": 6.504748
+      },
+      "inference": {
+        "mean_ms": 243.97161012,
+        "median_ms": 243.719964,
+        "p95_ms": 249.44520615000002,
+        "p99_ms": 254.46414658999998,
+        "min_ms": 236.839006,
+        "max_ms": 257.448142
+      },
+      "postprocess": {
+        "mean_ms": 0.3407902,
+        "median_ms": 0.3607315,
+        "p95_ms": 0.5068932,
+        "p99_ms": 0.5677784999999997,
+        "min_ms": 0.218261,
+        "max_ms": 0.66072
+      },
+      "end_to_end": {
+        "mean_ms": 251.76344134666667,
+        "median_ms": 250.199303,
+        "p95_ms": 259.70661245,
+        "p99_ms": 269.4831205999998,
+        "min_ms": 242.163103,
+        "max_ms": 322.536182
+      },
+      "fps_from_median": 3.996813692162844,
+      "fps_from_mean": 3.9719825668534856,
+      "rss_start_mb": 406.5,
+      "rss_end_mb": 461.6953125,
+      "peak_rss_mb": 479.66796875
+    },
+    {
+      "threads": 4,
+      "images": 300,
+      "detections": 471,
+      "decode": {
+        "mean_ms": 3.6495416466666666,
+        "median_ms": 1.861056,
+        "p95_ms": 8.524910550000003,
+        "p99_ms": 21.985242759999743,
+        "min_ms": 0.187783,
+        "max_ms": 73.542356
+      },
+      "preprocess": {
+        "mean_ms": 4.2587574366666665,
+        "median_ms": 4.0428715,
+        "p95_ms": 5.84687745,
+        "p99_ms": 6.159274879999983,
+        "min_ms": 2.954064,
+        "max_ms": 10.642791
+      },
+      "inference": {
+        "mean_ms": 149.39691399333333,
+        "median_ms": 145.620335,
+        "p95_ms": 169.6789027,
+        "p99_ms": 188.62214984999994,
+        "min_ms": 138.012866,
+        "max_ms": 210.364902
+      },
+      "postprocess": {
+        "mean_ms": 0.34627346666666664,
+        "median_ms": 0.3632985,
+        "p95_ms": 0.5009510500000001,
+        "p99_ms": 0.6127384899999997,
+        "min_ms": 0.217867,
+        "max_ms": 0.756502
+      },
+      "end_to_end": {
+        "mean_ms": 157.65161481333334,
+        "median_ms": 153.665739,
+        "p95_ms": 180.25273365,
+        "p99_ms": 209.25755511999992,
+        "min_ms": 143.082202,
+        "max_ms": 231.87989
+      },
+      "fps_from_median": 6.507631476655964,
+      "fps_from_mean": 6.343100266902089,
+      "rss_start_mb": 429.8671875,
+      "rss_end_mb": 470.87890625,
+      "peak_rss_mb": 503.69921875
+    }
+  ],
+  "best_threads": 4,
+  "test_used": false
+}

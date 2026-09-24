@@ -1,0 +1,38 @@
+{
+  "status": "ONNX_EXPORT_COMPLETE",
+  "source_pt": "/path/to/fire_detact_training/models/final/fire_smoke_r3_e6_final.pt",
+  "source_pt_sha256": "49dc0464d99a6c250cf3c3e305d4149c3d4ce3ee354d9d7a5ae1cb8c53a22183",
+  "onnx": "/path/to/fire_detact_training/models/final/onnx_v1/fire_smoke_r3_e6_final_768_fp32.onnx",
+  "onnx_sha256": "e887a759bcc65c89803c8ea0aa3d8891bcb0e60a5fd334433b2d6d912ba3bc79",
+  "configuration": {
+    "imgsz": 768,
+    "batch": 1,
+    "dynamic": false,
+    "simplify": false,
+    "opset": 17,
+    "fp16": false,
+    "embedded_nms": false
+  },
+  "inputs": [
+    {
+      "name": "images",
+      "shape": [
+        1,
+        3,
+        768,
+        768
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output0",
+      "shape": [
+        1,
+        6,
+        12096
+      ]
+    }
+  ],
+  "onnx_checker": "PASS"
+}

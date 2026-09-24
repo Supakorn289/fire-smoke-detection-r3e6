@@ -1,0 +1,116 @@
+{
+  "model": "/path/to/fire_detact_training/runs/teachers_r21/teacher_s_r21_preserve_v1/weights/best.pt",
+  "images": 2000,
+  "source": "SkyFinder",
+  "dataset_status": "UNVERIFIED_PROXY_NEGATIVE",
+  "severity_counts": {
+    "EXTREME": 2,
+    "HARD": 47,
+    "MODERATE": 378,
+    "LOW": 341,
+    "NONE": 1232
+  },
+  "review_conf_threshold": 0.25,
+  "review_images": 427,
+  "thresholds": [
+    {
+      "threshold": 0.1,
+      "images": 2000,
+      "alert_images": 768,
+      "proxy_alert_rate": 0.384,
+      "fire_alert_images": 482,
+      "fire_proxy_alert_rate": 0.241,
+      "smoke_alert_images": 338,
+      "smoke_proxy_alert_rate": 0.169,
+      "approx_prediction_boxes": 2237
+    },
+    {
+      "threshold": 0.15,
+      "images": 2000,
+      "alert_images": 624,
+      "proxy_alert_rate": 0.312,
+      "fire_alert_images": 407,
+      "fire_proxy_alert_rate": 0.2035,
+      "smoke_alert_images": 245,
+      "smoke_proxy_alert_rate": 0.1225,
+      "approx_prediction_boxes": 1948
+    },
+    {
+      "threshold": 0.2,
+      "images": 2000,
+      "alert_images": 528,
+      "proxy_alert_rate": 0.264,
+      "fire_alert_images": 358,
+      "fire_proxy_alert_rate": 0.179,
+      "smoke_alert_images": 183,
+      "smoke_proxy_alert_rate": 0.0915,
+      "approx_prediction_boxes": 1700
+    },
+    {
+      "threshold": 0.25,
+      "images": 2000,
+      "alert_images": 427,
+      "proxy_alert_rate": 0.2135,
+      "fire_alert_images": 292,
+      "fire_proxy_alert_rate": 0.146,
+      "smoke_alert_images": 144,
+      "smoke_proxy_alert_rate": 0.072,
+      "approx_prediction_boxes": 1460
+    },
+    {
+      "threshold": 0.3,
+      "images": 2000,
+      "alert_images": 324,
+      "proxy_alert_rate": 0.162,
+      "fire_alert_images": 223,
+      "fire_proxy_alert_rate": 0.1115,
+      "smoke_alert_images": 109,
+      "smoke_proxy_alert_rate": 0.0545,
+      "approx_prediction_boxes": 1175
+    },
+    {
+      "threshold": 0.4,
+      "images": 2000,
+      "alert_images": 155,
+      "proxy_alert_rate": 0.0775,
+      "fire_alert_images": 105,
+      "fire_proxy_alert_rate": 0.0525,
+      "smoke_alert_images": 54,
+      "smoke_proxy_alert_rate": 0.027,
+      "approx_prediction_boxes": 626
+    },
+    {
+      "threshold": 0.5,
+      "images": 2000,
+      "alert_images": 49,
+      "proxy_alert_rate": 0.0245,
+      "fire_alert_images": 20,
+      "fire_proxy_alert_rate": 0.01,
+      "smoke_alert_images": 30,
+      "smoke_proxy_alert_rate": 0.015,
+      "approx_prediction_boxes": 174
+    },
+    {
+      "threshold": 0.6,
+      "images": 2000,
+      "alert_images": 18,
+      "proxy_alert_rate": 0.009,
+      "fire_alert_images": 4,
+      "fire_proxy_alert_rate": 0.002,
+      "smoke_alert_images": 14,
+      "smoke_proxy_alert_rate": 0.007,
+      "approx_prediction_boxes": 62
+    },
+    {
+      "threshold": 0.75,
+      "images": 2000,
+      "alert_images": 2,
+      "proxy_alert_rate": 0.001,
+      "fire_alert_images": 0,
+      "fire_proxy_alert_rate": 0.0,
+      "smoke_alert_images": 2,
+      "smoke_proxy_alert_rate": 0.001,
+      "approx_prediction_boxes": 3
+    }
+  ]
+}

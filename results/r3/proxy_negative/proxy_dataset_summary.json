@@ -1,0 +1,23 @@
+{
+  "source": "SkyFinder",
+  "role": "internet_proxy_negative_pool",
+  "ground_truth_status": "UNVERIFIED_PROXY_NEGATIVE",
+  "internet_only": true,
+  "camera_count": 10,
+  "target_total": 2000,
+  "actual_total": 2000,
+  "camera_counts": {
+    "858": 200,
+    "3888": 204,
+    "4795": 203,
+    "5021": 203,
+    "1093": 203,
+    "3297": 203,
+    "4232": 175,
+    "19106": 203,
+    "4801": 203,
+    "21444": 203
+  },
+  "exact_duplicates_skipped": 0,
+  "invalid_images": 0
+}

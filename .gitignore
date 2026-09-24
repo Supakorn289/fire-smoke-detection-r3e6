@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+/.venv/
+/venv/
+/env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local datasets / sources
+/dataset/
+/dataset_raw/
+/dataset_review/
+/datasets/
+/sources/
+
+# Training artifacts not intended for Git history
+/runs/
+**/weights/
+*.cache
+
+# Model binaries
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+
+# Large/raw generated outputs
+/predictions/
+/labels/
+/review/
+/tmp/
+/temp/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Inventory / temporary audit files
+github_inventory*.txt
+github_core_inventory*.txt

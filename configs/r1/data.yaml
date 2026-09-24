@@ -1,0 +1,7 @@
+path: /path/to/datasets/fasdd_r1_v1
+train: images/train
+val: images/val
+
+names:
+  0: fire
+  1: smoke

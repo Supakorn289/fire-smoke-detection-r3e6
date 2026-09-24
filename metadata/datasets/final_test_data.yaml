@@ -1,0 +1,14 @@
+path: /path/to/datasets/fasdd_final_test_locked_v1
+
+# FINAL FASDD CLEAN V1 TEST
+# DO NOT USE FOR TRAINING
+# DO NOT USE FOR VALIDATION TUNING
+
+train: images/test
+val: images/test
+test: images/test
+
+nc: 2
+names:
+  0: fire
+  1: smoke

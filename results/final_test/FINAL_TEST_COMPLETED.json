@@ -1,0 +1,118 @@
+{
+  "status": "FINAL_TEST_COMPLETED",
+  "timestamp_utc": "2026-08-16T17:26:27.654846+00:00",
+  "model": {
+    "path": "/path/to/fire_detact_training/models/final/fire_smoke_r3_e6_final.pt",
+    "sha256": "49dc0464d99a6c250cf3c3e305d4149c3d4ce3ee354d9d7a5ae1cb8c53a22183",
+    "architecture": "YOLOv8s",
+    "checkpoint": "R3 epoch6"
+  },
+  "dataset": {
+    "name": "FASDD Clean V1",
+    "images": 15863,
+    "fire_gt": 9005,
+    "smoke_gt": 8208,
+    "negative_images": 6525
+  },
+  "evaluation": {
+    "imgsz": 768,
+    "operating_confidence": 0.25,
+    "matching_iou": 0.5
+  },
+  "standard_metrics": {
+    "all": {
+      "precision": 0.8109422981594185,
+      "recall": 0.7364266914200797,
+      "map50": 0.8044467624354079,
+      "map50_95": 0.5255774619487125
+    },
+    "fire": {
+      "precision": 0.8068396526381079,
+      "recall": 0.7814547473625764,
+      "map50": 0.847348402173021,
+      "map50_95": 0.5381666395237656
+    },
+    "smoke": {
+      "precision": 0.8150449436807292,
+      "recall": 0.6913986354775828,
+      "map50": 0.761545122697795,
+      "map50_95": 0.5129882843736591
+    }
+  },
+  "fixed_confidence_metrics": {
+    "fire": {
+      "gt": 9005,
+      "tp": 7822,
+      "fn": 1183,
+      "recall": 0.8686285397001666
+    },
+    "smoke": {
+      "gt": 8208,
+      "tp": 6361,
+      "fn": 1847,
+      "recall": 0.7749756335282652
+    },
+    "macro_recall": 0.8218020866142159
+  },
+  "size_aware": {
+    "fire": {
+      "small": {
+        "gt": 1961,
+        "tp": 1265,
+        "fn": 696,
+        "recall": 0.6450790413054563
+      },
+      "medium": {
+        "gt": 3423,
+        "tp": 3055,
+        "fn": 368,
+        "recall": 0.892491966111598
+      },
+      "large": {
+        "gt": 3621,
+        "tp": 3502,
+        "fn": 119,
+        "recall": 0.9671361502347418
+      }
+    },
+    "smoke": {
+      "small": {
+        "gt": 91,
+        "tp": 38,
+        "fn": 53,
+        "recall": 0.4175824175824176
+      },
+      "medium": {
+        "gt": 3545,
+        "tp": 2958,
+        "fn": 587,
+        "recall": 0.8344146685472497
+      },
+      "large": {
+        "gt": 4572,
+        "tp": 3365,
+        "fn": 1207,
+        "recall": 0.7360017497812773
+      }
+    }
+  },
+  "negative_test": {
+    "images": 6525,
+    "alert_images": 1592,
+    "fire_alert_images": 1016,
+    "smoke_alert_images": 688,
+    "boxes": 2665,
+    "fire_boxes": 1766,
+    "smoke_boxes": 899,
+    "fpr": 0.2439846743295019,
+    "fire_fpr": 0.1557088122605364,
+    "smoke_fpr": 0.10544061302681992
+  },
+  "speed_ms_per_image": {
+    "preprocess": 0.49038641896278035,
+    "inference": 3.1684005523736563,
+    "loss": 0.0025924667528153126,
+    "postprocess": 0.6753303507070636
+  },
+  "policy": "Model, checkpoint and operating confidence were frozen before TEST. These TEST results must not be used for subsequent training, checkpoint selection, or confidence tuning."
+}

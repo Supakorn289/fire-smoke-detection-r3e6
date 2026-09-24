@@ -1,0 +1,69 @@
+{
+  "status": "FINAL_MODEL_FROZEN",
+  "model_name": "fire_smoke_r3_e6_final",
+  "source_stage": "R3",
+  "architecture": "YOLOv8s",
+  "source_checkpoint": "runs/teachers_r3/teacher_s_r3_proxy_v1/weights/epoch6.pt",
+  "frozen_model": "/path/to/fire_detact_training/models/final/fire_smoke_r3_e6_final.pt",
+  "sha256": "49dc0464d99a6c250cf3c3e305d4149c3d4ce3ee354d9d7a5ae1cb8c53a22183",
+  "class_contract": {
+    "0": "fire",
+    "1": "smoke"
+  },
+  "inference": {
+    "imgsz": 768,
+    "confidence": 0.25,
+    "nms_iou": 0.7,
+    "max_det": 300
+  },
+  "selection_basis": {
+    "main_val_images": 3000,
+    "internet_proxy_holdout_images": 406,
+    "legacy_hard_negative_images": 94,
+    "small_smoke_scene_images": 222,
+    "main_fixed_conf_recall": {
+      "fire": 0.7121,
+      "smoke": 0.7238,
+      "macro": 0.7179
+    },
+    "internet_proxy_holdout_fpr_conf025": 0.1502,
+    "legacy_hardneg_fpr_conf025": 0.3085,
+    "small_smoke_scene": {
+      "smoke_recall": 0.414,
+      "smoke_map50": 0.478
+    },
+    "size_aware_conf025": {
+      "fire_small": {
+        "tp": 483,
+        "gt": 814,
+        "recall": 0.5934
+      },
+      "fire_medium": {
+        "tp": 595,
+        "gt": 831,
+        "recall": 0.716
+      },
+      "fire_large": {
+        "tp": 537,
+        "gt": 623,
+        "recall": 0.862
+      },
+      "smoke_small": {
+        "tp": 12,
+        "gt": 26,
+        "recall": 0.4615
+      },
+      "smoke_medium": {
+        "tp": 390,
+        "gt": 532,
+        "recall": 0.7331
+      },
+      "smoke_large": {
+        "tp": 777,
+        "gt": 1071,
+        "recall": 0.7255
+      }
+    }
+  },
+  "policy": "Model weights and hyperparameters are frozen. FASDD TEST may now be evaluated once. TEST results must not be used for further model training, checkpoint selection, or tuning."
+}

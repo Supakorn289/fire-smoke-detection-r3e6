@@ -1,0 +1,23 @@
+{
+  "status": "FASDD_FINAL_TEST_DATASET_LOCKED",
+  "dataset": "FASDD Clean V1",
+  "source": "/path/to/fire_datasets/fasdd/extracted/FASDD_CV",
+  "manifest": "/path/to/fire_detact_training/reports/fasdd/clean_v1/test.txt",
+  "manifest_sha256": "044917024e8eb3ac7eb6aebd8ee775f3bf2d5808f1afea1ee2976a39ba9e6328",
+  "class_contract": {
+    "0": "fire",
+    "1": "smoke"
+  },
+  "counts": {
+    "images": 15863,
+    "fire_only": 2090,
+    "smoke_only": 3896,
+    "fire_smoke": 3352,
+    "negative": 6525,
+    "fire_boxes": 9005,
+    "smoke_boxes": 8208
+  },
+  "test_dataset": "/path/to/fire_detact_training/datasets/fasdd_final_test_locked_v1",
+  "data_yaml": "/path/to/fire_detact_training/datasets/fasdd_final_test_locked_v1/data.yaml",
+  "policy": "This dataset is the frozen final TEST set. It must never be used for training, checkpoint selection, hyperparameter tuning, or confidence-threshold selection."
+}

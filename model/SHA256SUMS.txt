@@ -1,0 +1,2 @@
+49dc0464d99a6c250cf3c3e305d4149c3d4ce3ee354d9d7a5ae1cb8c53a22183  fire_smoke_r3_e6_final.pt
+e887a759bcc65c89803c8ea0aa3d8891bcb0e60a5fd334433b2d6d912ba3bc79  fire_smoke_r3_e6_final_768_fp32.onnx
