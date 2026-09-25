@@ -188,12 +188,14 @@ See:
 
 ## Documentation
 
+- [Research summary](./docs/RESEARCH_SUMMARY.md)
 - [Project history: 0 → 100%](./docs/PROJECT_HISTORY.md)
 - [Datasets and citations](./docs/DATASETS.md)
 - [Training pipeline](./docs/TRAINING_PIPELINE.md)
 - [Model selection](./docs/MODEL_SELECTION.md)
 - [Final model card](./docs/FINAL_MODEL_CARD.md)
 - [Reproducibility](./docs/REPRODUCIBILITY.md)
+- [Third-party notices](./THIRD_PARTY_NOTICES.md)
 
 ## Third-party data and licensing
 

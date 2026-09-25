@@ -6,9 +6,9 @@ authors:
   - family-names: "Prammano"
     given-names: "Supakorn"
 repository-code: "https://github.com/Supakorn289/fire-smoke-detection-r3e6"
-url: "https://github.com/Supakorn289/fire-smoke-detection-r3e6/releases/tag/v1.0.0-r3e6"
-version: "1.0.0-r3e6"
-date-released: 2026-09-24
+url: "https://github.com/Supakorn289/fire-smoke-detection-r3e6/releases/tag/v1.0.1"
+version: "1.0.1"
+date-released: 2026-09-25
 abstract: >-
   End-to-end research software and model-development archive for a YOLOv8s
   fire and smoke detector. The repository documents dataset exploration,
