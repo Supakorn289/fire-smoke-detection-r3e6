@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, model, or experimental artifacts in research, please cite this repository."
+title: "Fire & Smoke Detection R3-E6"
+type: software
+authors:
+  - family-names: "Prammano"
+    given-names: "Supakorn"
+repository-code: "https://github.com/Supakorn289/fire-smoke-detection-r3e6"
+url: "https://github.com/Supakorn289/fire-smoke-detection-r3e6/releases/tag/v1.0.0-r3e6"
+version: "1.0.0-r3e6"
+date-released: 2026-09-24
+abstract: >-
+  End-to-end research software and model-development archive for a YOLOv8s
+  fire and smoke detector. The repository documents dataset exploration,
+  FASDD curation and leakage control, architecture comparison, hard-negative
+  mining, R2/R2.1/R3 refinement, pre-test model freeze, a locked final test,
+  ONNX export, equivalence validation, CPU benchmarking, and release artifacts.
+keywords:
+  - computer vision
+  - object detection
+  - fire detection
+  - smoke detection
+  - YOLOv8
+  - hard-negative mining
+  - PyTorch
+  - ONNX
+  - research software
