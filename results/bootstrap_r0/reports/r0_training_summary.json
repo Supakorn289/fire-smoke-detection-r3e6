@@ -1,0 +1,26 @@
+[
+  {
+    "name": "teacher_n_r0",
+    "base_weights": "yolov8n.pt",
+    "status": "complete",
+    "started": "2026-08-08T19:09:41.130611",
+    "finished": "2026-08-08T19:20:25.401022",
+    "best": "/path/to/fire_detact_training/runs/teachers_r0/teacher_n_r0/weights/best.pt"
+  },
+  {
+    "name": "teacher_s_r0",
+    "base_weights": "yolov8s.pt",
+    "status": "complete",
+    "started": "2026-08-08T19:20:26.971653",
+    "finished": "2026-08-08T19:38:42.197708",
+    "best": "/path/to/fire_detact_training/runs/teachers_r0/teacher_s_r0/weights/best.pt"
+  },
+  {
+    "name": "teacher_m_r0",
+    "base_weights": "yolov8m.pt",
+    "status": "complete",
+    "started": "2026-08-08T19:38:44.487933",
+    "finished": "2026-08-08T20:12:12.083939",
+    "best": "/path/to/fire_detact_training/runs/teachers_r0/teacher_m_r0/weights/best.pt"
+  }
+]

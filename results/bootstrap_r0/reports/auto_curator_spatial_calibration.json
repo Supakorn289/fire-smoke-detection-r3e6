@@ -1,0 +1,39 @@
+{
+  "config": {
+    "weights": {
+      "teacher_n_r0": 0.31,
+      "teacher_s_r0": 0.33,
+      "teacher_m_r0": 0.36
+    },
+    "pred_min_conf": 0.1,
+    "cluster_iou": 0.25,
+    "gt_support_iou": 0.2,
+    "missing_gt_iou": 0.15,
+    "conflict_iou": 0.3,
+    "missing_min_score": 0.35
+  },
+  "human_samples": 200,
+  "best_calibration": {
+    "threshold": 0.75,
+    "tp": 27,
+    "fp": 25,
+    "tn": 138,
+    "fn": 10,
+    "precision": 0.5192307692307693,
+    "recall": 0.7297297297297297,
+    "f2": 0.6749999999999999,
+    "accuracy": 0.825
+  },
+  "all_2000": {
+    "flagged": 809,
+    "clean": 1191,
+    "flagged_percent": 40.45
+  },
+  "feature_totals": {
+    "missing_fire": 156,
+    "missing_smoke": 209,
+    "unsupported_gt": 780,
+    "class_conflicts": 27,
+    "strong_singletons": 172
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "weights": {
+    "teacher_n_r0": 0.31,
+    "teacher_s_r0": 0.33,
+    "teacher_m_r0": 0.36
+  },
+  "human_samples": 200,
+  "best_thresholds": {
+    "vote_conf": 0.1,
+    "missing_score": 0.5,
+    "unsupported_score": 0.25
+  },
+  "metrics": {
+    "tp": 23,
+    "fp": 12,
+    "tn": 151,
+    "fn": 14,
+    "precision": 0.6571428571428571,
+    "recall": 0.6216216216216216,
+    "f2": 0.628415300546448,
+    "accuracy": 0.87
+  }
+}

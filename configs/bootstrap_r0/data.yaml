@@ -1,0 +1,9 @@
+path: /path/to/fire_detact_training/datasets/bootstrap_v1
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: fire
+  1: smoke

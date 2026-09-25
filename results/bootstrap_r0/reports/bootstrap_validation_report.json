@@ -1,0 +1,52 @@
+{
+  "dataset": "/path/to/fire_detact_training/datasets/bootstrap_v1",
+  "eps": 1e-06,
+  "classes": {
+    "0": "fire",
+    "1": "smoke"
+  },
+  "splits": {
+    "train": {
+      "stats": {
+        "images": 531,
+        "negative": 140,
+        "boxes": 1324,
+        "class_1_smoke": 406,
+        "class_0_fire": 918,
+        "extremely_large_box": 23
+      },
+      "issues": []
+    },
+    "val": {
+      "stats": {
+        "images": 157,
+        "negative": 40,
+        "boxes": 376,
+        "class_0_fire": 250,
+        "class_1_smoke": 126,
+        "extremely_large_box": 7
+      },
+      "issues": []
+    },
+    "test": {
+      "stats": {
+        "images": 77,
+        "negative": 20,
+        "boxes": 178,
+        "class_0_fire": 122,
+        "class_1_smoke": 56,
+        "extremely_large_box": 4
+      },
+      "issues": []
+    }
+  },
+  "summary": {
+    "total_images": 765,
+    "total_boxes": 1878,
+    "fire_boxes": 1290,
+    "smoke_boxes": 588,
+    "negative_images": 200,
+    "critical_issues": 0,
+    "warnings": 34
+  }
+}

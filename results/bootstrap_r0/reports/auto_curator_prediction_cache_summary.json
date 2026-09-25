@@ -1,0 +1,32 @@
+[
+  {
+    "model": "teacher_n_r0",
+    "cache": "/path/to/fire_detact_training/reports/auto_curator_r0/predictions/teacher_n_r0.jsonl",
+    "images": 2000,
+    "detections": 6314,
+    "fire_detections": 4264,
+    "smoke_detections": 2050,
+    "fire_conf25": 2558,
+    "smoke_conf25": 1147
+  },
+  {
+    "model": "teacher_s_r0",
+    "cache": "/path/to/fire_detact_training/reports/auto_curator_r0/predictions/teacher_s_r0.jsonl",
+    "images": 2000,
+    "detections": 5953,
+    "fire_detections": 4031,
+    "smoke_detections": 1922,
+    "fire_conf25": 2548,
+    "smoke_conf25": 1165
+  },
+  {
+    "model": "teacher_m_r0",
+    "cache": "/path/to/fire_detact_training/reports/auto_curator_r0/predictions/teacher_m_r0.jsonl",
+    "images": 2000,
+    "detections": 6459,
+    "fire_detections": 4034,
+    "smoke_detections": 2425,
+    "fire_conf25": 2546,
+    "smoke_conf25": 1188
+  }
+]
