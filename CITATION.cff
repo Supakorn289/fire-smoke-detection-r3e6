@@ -8,6 +8,7 @@ authors:
 repository-code: "https://github.com/Supakorn289/fire-smoke-detection-r3e6"
 url: "https://github.com/Supakorn289/fire-smoke-detection-r3e6/releases/tag/v1.0.1"
 version: "1.0.1"
+doi: "10.5281/zenodo.22954656"
 date-released: 2026-09-25
 abstract: >-
   End-to-end research software and model-development archive for a YOLOv8s

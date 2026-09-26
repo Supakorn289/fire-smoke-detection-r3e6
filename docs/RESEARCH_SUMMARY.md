@@ -178,6 +178,12 @@ Assets:
 
 ## Citation
 
-Use the repository `CITATION.cff`.
+Canonical research archive:
 
-After Zenodo archiving, add the assigned DOI to this file, `CITATION.cff`, and the main README.
+> Supakorn Prammano. *Fire & Smoke Detection R3-E6*. Version 1.0.1. Zenodo, 2026. DOI: `10.5281/zenodo.22954656`
+
+DOI:
+
+https://doi.org/10.5281/zenodo.22954656
+
+Citation metadata is also available in the repository `CITATION.cff`.

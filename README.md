@@ -7,6 +7,7 @@
 [![Input](https://img.shields.io/badge/input-768%C3%97768-2563eb)](./docs/FINAL_MODEL_CARD.md)
 [![mAP50](https://img.shields.io/badge/Final%20TEST%20mAP50-0.8044-16a34a)](./results/final_test/FINAL_TEST_SUMMARY.txt)
 [![Release](https://img.shields.io/badge/release-v1.0.0--r3e6-7c3aed)](https://github.com/Supakorn289/fire-smoke-detection-r3e6/releases/tag/v1.0.0-r3e6)
+[![DOI](https://zenodo.org/badge/1384914946.svg)](https://doi.org/10.5281/zenodo.22954656)
 
 ## What this repository shows
 
@@ -202,3 +203,17 @@ See:
 Third-party datasets remain the property of their respective authors and are not bundled in this repository. Users should obtain datasets from upstream sources and comply with the corresponding terms and citation requirements.
 
 A repository-wide source-code license has not been declared in this snapshot.
+
+## Citation
+
+If you use this repository, trained model, experimental artifacts, or results in academic work, please cite:
+
+> Supakorn Prammano. *Fire & Smoke Detection R3-E6*. Version 1.0.1. Zenodo, 2026. DOI: [10.5281/zenodo.22954656](https://doi.org/10.5281/zenodo.22954656)
+
+Persistent identifier:
+
+`10.5281/zenodo.22954656`
+
+Zenodo record: https://doi.org/10.5281/zenodo.22954656
+
+GitHub also provides citation metadata through [`CITATION.cff`](./CITATION.cff).
